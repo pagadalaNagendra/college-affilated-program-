@@ -27,10 +27,10 @@ app.add_middleware(
 
 def get_connection():
     return psycopg2.connect(
-        host="localhost",
-        database="iot-test",
-        user="postgres",
-        password="postgres"
+        host="dpg-d6najj14tr6s738uaf8g-a",
+        database="iottest",
+        user="postgresql",
+        password="6SRGts4bXHUwCN8tz9WAk5udNcHQDHmz"
     )
 
 
